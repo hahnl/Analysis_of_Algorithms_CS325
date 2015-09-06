@@ -1,0 +1,77 @@
+README FILE
+===========
+
+Project 1, Group 7
+
+proj1.cpp
+
+
+
+Introduction
+-------------------
+
+This program runs 4 different algorithms in order to 
+read arrays from a file and solve the maximum subarray
+problem on each array.
+
+
+
+Included Files
+-------------------
+README
+proj1.cpp
+MSS_Problems.txt
+MSS_Results.txt
+
+
+
+Running the Program
+-------------------
+
+To run this program, first ensure that included files are in the same folder.
+Then, compile with the following line:
+g++ proj1.cpp -o proj1
+
+When this program runs, it will append results to the end of the MSS_Results.txt 
+file. If you would like a fresh version of the results, with no other previous results, clear all contents of the MSS_Results.txt file. Save this cleared file.
+
+To run the program, type the following line onto the command line:
+./prog1
+
+All results will be outputed to the MSS_Results.txt file.  Nothing will display in the terminal.
+
+
+Looking at the Results
+-------------------
+
+To look at the results:
+cat MSS_Results.txt
+
+
+
+Running Experimental Analysis
+-------------------
+
+To run the experimental analysis on the algorithms ran in this program, you will need to
+un-comment-out line 46 in proj1.cpp (remove the '//').
+
+Then, recompile proj1.cpp:
+g++ proj1.cpp -o proj1
+
+Re-run the program:
+./prog1
+
+The results from the experimental analysis will be displayed in the terminal.
+
+
+
+Group Members
+-------------------
+
+Allison Barnett   barnetal@onid.oregonstate.edu
+Nathan Thunem     thunemn@onid.oregonstate.edu
+Larissa Hahn      hahnl@onid.oregonstate.edu
+
+
+Enjoy!
+
